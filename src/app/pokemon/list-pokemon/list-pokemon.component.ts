@@ -15,7 +15,6 @@ export class ListPokemonComponent {
 
   ngOnInit(){
     this.pokemonList = this.pokemonService.getPokemonList();
-    console.log(this.pokemonService.getPokemonTypeList());
   }
 
   goToPokemon(pokemon: Pokemon){
